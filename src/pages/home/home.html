@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>Welcome to Ionic!</h1>
+  <p>
+    This project is a theme changer example. Press any button bellow 
+    to change current theme. Each button will inject dynamically a CSS on demand.
+  </p>
+
+  <button ion-button (click)="setTheme('blue')">Set blue</button>
+
+  <button ion-button color="secondary" (click)="setTheme('green')">Set Green</button>
+
+  <button ion-button color="danger" (click)="setTheme('red')">Set Red</button>
+
+</ion-content>
